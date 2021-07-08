@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlPrivilegeManager", "SQLPrivileges\SqlPrivilegeManager.csproj", "{68E8E159-607D-41A9-9BA1-8655A96B2AEB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlPrivilegeManager.Tests", "SqlPrivilegesTests\SqlPrivilegeManager.Tests.csproj", "{8C4B509F-9324-4158-ADBD-A241ECA6FA33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68E8E159-607D-41A9-9BA1-8655A96B2AEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68E8E159-607D-41A9-9BA1-8655A96B2AEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68E8E159-607D-41A9-9BA1-8655A96B2AEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68E8E159-607D-41A9-9BA1-8655A96B2AEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C4B509F-9324-4158-ADBD-A241ECA6FA33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C4B509F-9324-4158-ADBD-A241ECA6FA33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C4B509F-9324-4158-ADBD-A241ECA6FA33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C4B509F-9324-4158-ADBD-A241ECA6FA33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E39F018-4215-4E37-AA0B-1E221C61AFC2}
+	EndGlobalSection
+EndGlobal
